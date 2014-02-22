@@ -1,0 +1,22 @@
+name:                tasty-json
+version:             0.1.0.0
+synopsis:            A tasty ingredient to output test results in JSON, compatible with HTF schema.
+homepage:            https://github.com/serras/tasty-json
+license:             BSD3
+license-file:        LICENSE
+author:              Alejandro Serrano
+maintainer:          trupill@gmail.com
+category:            Testing
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  -- exposed-modules:     
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.6 && <5,
+                       aeson >= 0.6,
+                       tasty >= 0.7
+  hs-source-dirs:      src
+  default-language:    Haskell98
